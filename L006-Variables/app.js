@@ -47,6 +47,7 @@ console.log(constName);
 
 /**
  * Contents of an object or array can be changed
+ * but they can not be reassigned
  */
 
 const person = {
