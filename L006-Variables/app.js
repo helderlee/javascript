@@ -65,3 +65,7 @@ const numbers = [1,2,3,4,5];
 numbers.push(6);
 
 console.log(numbers);
+
+console.log(v1);
+console.log(v2);
+console.log(v3);
