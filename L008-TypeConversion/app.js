@@ -156,8 +156,8 @@ console.log(val.toFixed(2));
 /**
  * Operations
  */
-v1 = 5;
-v2 = 6;
+let v1 = 5;
+let v2 = 6;
 
 val = v1 + v2;
 console.log(val);
