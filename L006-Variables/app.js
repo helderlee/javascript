@@ -29,7 +29,8 @@ var first_name = 'Sara'; // Underscore
 var FirstName = 'Tom'; // Pascal case
 
 /**
- * Let
+ * 'let'
+ * It has a smaller scope than 'var'
  */
 
 let name2 = 'John Doe';
