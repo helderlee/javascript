@@ -6,14 +6,14 @@ let val;
 const person = {
   firstName: 'Steve',
   lastName: 'Smith',
-  birthday: new Date(1973, 7, 17),
+  birthday: new Date(1970, 1, 1),
   hobbies: ['music', 'sports'],
   address: {
     city: 'Miami',
     state: 'FL'
   },
   getAge: function () {
-    return~~ ((Date.now() - this.birthday) / (31557600000));
+    return ~~((Date.now() - this.birthday) / (31557600000));
   }
 }
 
