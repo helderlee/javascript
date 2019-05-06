@@ -15,7 +15,7 @@ function getText() {
       console.log(data);
       document.querySelector('#output').innerHTML = data;
     })
-    .catch(function(err) {
+    .catch(function (err) {
       console.log(err);
     });
 }
@@ -28,12 +28,12 @@ function getJson() {
     .then(function (data) {
       console.log(data);
       let output = '';
-      data.forEach(function(post){
+      data.forEach(function (post) {
         output += `<li>${post.title}</li>`;
       });
       document.querySelector('#output').innerHTML = output;
     })
-    .catch(function(err) {
+    .catch(function (err) {
       console.log(err);
     });
 }
@@ -46,12 +46,12 @@ function getExternal() {
     .then(function (data) {
       console.log(data);
       let output = '';
-      data.forEach(function(user){
+      data.forEach(function (user) {
         output += `<li>${user.login}</li>`;
       });
       document.querySelector('#output').innerHTML = output;
     })
-    .catch(function(err) {
+    .catch(function (err) {
       console.log(err);
     });
 }
